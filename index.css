@@ -1,3 +1,17 @@
-body {
-    background-color: blue;
+body header {
+  background-color: rgba(15, 15, 15, 0.623);
+  text-align: center;
+}
+body main {
+  background-color: rgb(80, 196, 180);
+}
+body nav {
+  background-color: gray;
+  text-align: right;
+  text-align: center;
+}
+
+body footer {
+  background-color: rgb(24, 65, 49);
+  text-align: center;
 }
