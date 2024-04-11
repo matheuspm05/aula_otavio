@@ -5,6 +5,7 @@
 
 body {
   background-color: whitesmoke;
+  font-size: medium;
   color: black;
   margin: 0;
 }
@@ -35,7 +36,6 @@ img {
   border: 2px solid rgb(0, 0, 0);
   border-radius: 10px;
 }
-
 .embaixo {
   text-align: left;
 }
