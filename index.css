@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: whitesmoke;
+  background-color: rgb(128, 123, 123);
   font-size: medium;
   color: black;
   margin: 0;
@@ -38,18 +38,47 @@ img {
 }
 .embaixo {
   text-align: left;
+  border: 3px solid black
 }
 
 .embaixo th,
-.embaixo td,
-h {
+.embaixo td, h {
   border: 1px solid #000000;
   text-align: left;
   padding: 4px;
 }
 .rodape {
-  background-color: rgb(43, 41, 40);
+  background-color: rgb(51, 47, 44);
   color: white;
   text-align: center;
   border: 5px solid rgb(0, 0, 0);
 }
+
+.formulario{
+  padding: 40px 4%;
+}
+
+form input, form textarea{
+  width: 100%;
+  background-color: #00000054;
+  border: none;
+  outline: 0;
+  padding: 20px 15px;
+  border-radius: 15px;
+  color: white;
+  font-size: 18px;
+}
+
+form textarea{
+  resize: none;
+  max-height: 200px;
+}
+
+form .btn-enviar input[type=submit]{
+  padding: 20px;
+  width: 120px;
+  cursor: pointer;
+  background-color: black;
+  font-weight: 700;
+}
+
