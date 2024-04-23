@@ -6,7 +6,6 @@
 body {
   background-color: rgb(128, 123, 123);
   font-size: medium;
-  color: black;
   margin: 0;
 }
 
@@ -16,11 +15,26 @@ body {
   text-align: center;
   padding: 1%;
 }
-.menu a,
-img {
-  color: black;
-  text-decoration: none;
+
+.foto{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 400px;
 }
+
+.nome{
+  margin-left: 200px;
+  margin-bottom: 100px;
+  font-size: 20px;
+}
+
+.topo img {
+  display: flex;
+  margin-left: 50px;
+  border-radius: 20%;
+}
+
 .menu {
   text-align: center;
   padding: 0px 16px;
@@ -28,57 +42,62 @@ img {
   border: 5px solid black;
 }
 
+.menu a,
+img {
+  color: black;
+  text-decoration: none;
+}
+
 .lados {
   float: left;
   width: 50%;
+  text-indent: 10px;
   height: 350px;
   padding: 15px;
   border: 2px solid rgb(0, 0, 0);
   border-radius: 10px;
 }
+
 .embaixo {
-  text-align: left;
-  border: 3px solid black
+  text-align: center;
+  border: 5px solid black;
 }
 
 .embaixo th,
-.embaixo td, h {
+.embaixo td,
+h {
   border: 1px solid #000000;
-  text-align: left;
+  text-align: center;
   padding: 4px;
 }
+
+.embaixo table{
+  margin-left: 350px;
+  margin: auto;
+}
+
 .rodape {
-  background-color: rgb(51, 47, 44);
+  background-color: rgb(43, 41, 40);
   color: white;
   text-align: center;
   border: 5px solid rgb(0, 0, 0);
-}
-
-.formulario{
-  padding: 40px 4%;
-}
-
-form input, form textarea{
-  width: 100%;
-  background-color: #00000054;
-  border: none;
-  outline: 0;
-  padding: 20px 15px;
-  border-radius: 15px;
-  color: white;
-  font-size: 18px;
-}
-
-form textarea{
-  resize: none;
-  max-height: 200px;
-}
-
-form .btn-enviar input[type=submit]{
   padding: 20px;
-  width: 120px;
-  cursor: pointer;
-  background-color: black;
-  font-weight: 700;
+  border-radius: 10px;
 }
 
+.rodape label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.rodape input[type="email"],
+.rodape input[type="number"],
+.rodape textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
